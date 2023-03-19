@@ -28,3 +28,10 @@ const hamburgerBtn = document.querySelector('.hamburgerBtn');
 hamburgerBtn.addEventListener('click', () =>{
     alert("This is under development. Please check back later!");
 });
+
+
+const loader = document.querySelector('#loader');
+
+function loading(){
+     loader.style.display = "none";
+}
