@@ -32,7 +32,7 @@ hamburgerBtn.addEventListener('click', () =>{
 
 const loader = document.querySelector('#loader');
 
-function loading(){
+loader.addEventListener('load',()=>{
      loader.style.display="none";
      console.log("loaded");
-}
+     });
