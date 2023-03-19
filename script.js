@@ -30,9 +30,10 @@ hamburgerBtn.addEventListener('click', () =>{
 });
 
 
-const loader = document.querySelector('#loader');
+const image = document.querySelector('#image');
+const img = image.querySelector('img');
 
-loader.addEventListener('load',()=>{
+img.addEventListener('load',()=>{
      loader.style.display="none";
      console.log("loaded");
      });
