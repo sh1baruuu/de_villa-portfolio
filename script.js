@@ -33,5 +33,5 @@ hamburgerBtn.addEventListener('click', () =>{
 const loader = document.querySelector('#loader');
 
 function loading(){
-     loader.style.display = "none";
+     loader.style.display = "block";
 }
